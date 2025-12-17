@@ -1,6 +1,11 @@
 All-in-One Net Safe - License and Attributions
 ===============================================
 
+Created by: lasseern
+Project: All-in-One Net Safe - Comprehensive Security & Privacy Suite
+Version: 2.0 (55 Features)
+Year: 2025
+
 This project integrates multiple open source security tools and is licensed under MIT.
 However, the integrated tools maintain their own licenses as detailed below.
 
@@ -8,7 +13,21 @@ However, the integrated tools maintain their own licenses as detailed below.
 MIT License - All-in-One Net Safe (Main Application)
 ================================================================================
 
-Copyright (c) 2025 All-in-One Net Safe
+Copyright (c) 2025 lasseern (All-in-One Net Safe)
+
+Original Features & Enhancements by lasseern:
+- 55 Integrated Security, Privacy, Network, and Utility Tools
+- Custom GUI with CustomTkinter
+- Security Features: WiFi Password Recovery, Password Vault, 2FA/TOTP, Steganography,
+  Encrypted Containers, Keylogger Detector, Anti-Ransomware, File Integrity Monitor
+- Network Tools: VPN Manager, Speed Test, DNS Changer, Packet Sniffer, Wake-on-LAN,
+  Network Traffic Analyzer, Port Scanner, Device Scanner
+- Privacy Tools: MAC Changer, Browser Fingerprint Protection, WebRTC Leak Protection,
+  DoH Configuration, Metadata Cleaner, File Shredder
+- Monitoring Tools: USB Monitor, Log Analyzer, Firewall Manager, Traffic Monitor
+- Utilities: System Cleaner, Duplicate Finder, QR Code Generator, SSL Checker,
+  Hash Calculator, Password Generator, Email Header Analyzer, WHOIS Lookup
+- System Management: Startup Manager, Service Manager, Disk Health Test, Update Manager
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

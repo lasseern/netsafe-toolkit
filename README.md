@@ -353,11 +353,27 @@ See [LICENSE](LICENSE) file for complete details.
 ## 🗺️ Roadmap
 
 ### Planned Features
-- [ ] DNS leak protection
-- [ ] Kill switch functionality
-- [ ] Browser fingerprint protection
-- [ ] Real-time PCAP sniffing
-- [ ] AI-powered threat detection
+
+#### 🔐 Security Enhancements
+- [ ] **VPN Integration** - Built-in VPN support alongside Tor
+- [ ] **DNS Leak Protection** - Verify DNS requests go through Tor
+- [ ] **Kill Switch Functionality** - Auto-disconnect if Tor drops
+- [ ] **Browser Fingerprint Protection** - Anti-tracking browser integration
+- [ ] **IPv6 Leak Prevention** - Block IPv6 when using Tor
+
+#### 🛡️ Advanced Features
+- [ ] **Real-time PCAP Sniffing** - Live network traffic monitoring
+- [ ] **AI-Powered Threat Detection** - Machine learning anomaly detection
+- [ ] **Automated Security Reports** - Generate comprehensive analysis reports
+- [ ] **Plugin System** - Extend functionality with custom plugins
+- [ ] **Credential Vault** - Encrypted storage for pentesting credentials
+
+#### 🌍 Usability Improvements
+- [ ] **Multi-language Support** - German, French, Spanish, Portuguese
+- [ ] **Mobile Companion App** - Remote control and monitoring
+- [ ] **Dark/Light/Custom Themes** - Enhanced UI customization
+- [ ] **Command History** - Save and replay command sequences
+- [ ] **Export/Import Configs** - Share tool configurations
 
 ## ⚡ Quick Commands
 
@@ -385,4 +401,3 @@ cat logs/netsafe.log
 *All-in-One Net Safe v3.0 - The Complete Security Toolkit*
 
 *Last Updated: December 17, 2025*
-

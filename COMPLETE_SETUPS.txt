@@ -1,0 +1,49 @@
+"""
+Complete GUI setup methods for all 10 new features
+To be used to replace the "Coming soon" placeholders
+"""
+
+MAC_CHANGER_SETUP = '''
+    def setup_mac_changer_tab(self):
+        self.tab_mac.grid_columnconfigure(0, weight=1)
+        
+        ctk.CTkLabel(self.tab_mac, text="🔧 MAC Address Changer", font=ctk.CTkFont(size=24, weight="bold")).grid(row=0, column=0, pady=20)
+        
+        # Interface selection
+        interface_frame = ctk.CTkFrame(self.tab_mac)
+        interface_frame.grid(row=1, column=0, sticky="ew", padx=20, pady=10)
+        interface_frame.grid_columnconfigure(1, weight=1)
+        
+        ctk.CTkLabel(interface_frame, text="Interface:").grid(row=0, column=0, padx=10, pady=10, sticky="w")
+        self.mac_interface_var = ctk.StringVar(value="Loading...")
+        self.mac_interface_menu = ctk.CTkOptionMenu(interface_frame, variable=self.mac_interface_var, values=["Loading..."])
+        self.mac_interface_menu.grid(row=0, column=1, padx=10, pady=10, sticky="ew")
+        
+        # New MAC entry
+        mac_frame = ctk.CTkFrame(self.tab_mac)
+        mac_frame.grid(row=2, column=0, sticky="ew", padx=20, pady=10)
+        mac_frame.grid_columnconfigure(1, weight=1)
+        
+        ctk.CTkLabel(mac_frame, text="New MAC:").grid(row=0, column=0, padx=10, pady=10, sticky="w")
+        self.mac_new_entry = ctk.CTkEntry(mac_frame, placeholder_text="Leave empty for random")
+        self.mac_new_entry.grid(row=0, column=1, padx=10, pady=10, sticky="ew")
+        
+        # Buttons
+        btn_frame = ctk.CTkFrame(self.tab_mac)
+        btn_frame.grid(row=3, column=0, sticky="ew", padx=20, pady=10)
+        btn_frame.grid_columnconfigure((0,1,2,3), weight=1)
+        
+        ctk.CTkButton(btn_frame, text="🔄 Refresh", command=self.refresh_mac_interfaces, height=40).grid(row=0, column=0, padx=5, pady=10, sticky="ew")
+        ctk.CTkButton(btn_frame, text="🎲 Random MAC", command=self.generate_random_mac, height=40).grid(row=0, column=1, padx=5, pady=10, sticky="ew")
+        ctk.CTkButton(btn_frame, text="✏️ Change MAC", command=lambda: self.run_in_thread(self.change_mac_address), height=40, fg_color="orange").grid(row=0, column=2, padx=5, pady=10, sticky="ew")
+        ctk.CTkButton(btn_frame, text="↩️ Restore", command=lambda: self.run_in_thread(self.restore_mac_address), height=40).grid(row=0, column=3, padx=5, pady=10, sticky="ew")
+        
+        # Output
+        self.mac_textbox = ctk.CTkTextbox(self.tab_mac, height=250)
+        self.mac_textbox.grid(row=4, column=0, padx=20, pady=20, sticky="nsew")
+        self.tab_mac.grid_rowconfigure(4, weight=1)
+        
+        self.refresh_mac_interfaces()
+'''
+
+# Continue with other setups in next message due to length...
