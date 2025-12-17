@@ -353,16 +353,11 @@ See [LICENSE](LICENSE) file for complete details.
 ## 🗺️ Roadmap
 
 ### Planned Features
-- [ ] VPN integration
 - [ ] DNS leak protection
 - [ ] Kill switch functionality
 - [ ] Browser fingerprint protection
 - [ ] Real-time PCAP sniffing
 - [ ] AI-powered threat detection
-- [ ] Automated reporting
-- [ ] Plugin system
-- [ ] Multi-language support (German, French, Spanish)
-- [ ] Mobile companion app
 
 ## ⚡ Quick Commands
 
@@ -390,3 +385,4 @@ cat logs/netsafe.log
 *All-in-One Net Safe v3.0 - The Complete Security Toolkit*
 
 *Last Updated: December 17, 2025*
+
