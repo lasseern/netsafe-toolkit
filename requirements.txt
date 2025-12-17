@@ -1,0 +1,20 @@
+# All-in-One Net Safe - Dependencies
+
+# GUI Framework
+customtkinter>=5.2.0
+
+# Logging og configuration
+python-json-logger>=2.0.7
+
+# Network utilities
+requests>=2.31.0
+
+# System utilities
+psutil>=5.9.0
+
+# Network analysis and visualization
+networkx>=3.0
+matplotlib>=3.5.0
+
+# Package management for NetExec
+pipx>=1.0.0

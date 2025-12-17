@@ -1,0 +1,293 @@
+All-in-One Net Safe - License and Attributions
+===============================================
+
+This project integrates multiple open source security tools and is licensed under MIT.
+However, the integrated tools maintain their own licenses as detailed below.
+
+================================================================================
+MIT License - All-in-One Net Safe (Main Application)
+================================================================================
+
+Copyright (c) 2025 All-in-One Net Safe
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+THIRD-PARTY SOFTWARE LICENSES AND ATTRIBUTIONS
+================================================================================
+
+This software integrates and interfaces with the following third-party projects.
+Each maintains its own license and copyright:
+
+--------------------------------------------------------------------------------
+1. Nipe - Tor Network Integration
+--------------------------------------------------------------------------------
+Copyright (c) Heitor Gouvêa
+Repository: https://github.com/htrgouvea/nipe
+License: MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+2. Kalitorify - Transparent Proxy through Tor
+--------------------------------------------------------------------------------
+Copyright (c) 2015-2022 Brainfuck
+Repository: https://github.com/brainfucksec/kalitorify
+License: GNU General Public License v3.0 (GPL-3.0)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+NOTE: As this is a GPL-3.0 licensed component, any modifications to Kalitorify
+itself would need to be distributed under GPL-3.0. Our interface code that
+calls Kalitorify remains under MIT license.
+
+--------------------------------------------------------------------------------
+3. Hakrawler - Web Crawler
+--------------------------------------------------------------------------------
+Copyright (c) Luke Stephens (hakluke)
+Repository: https://github.com/hakluke/hakrawler
+License: GNU General Public License v3.0 (GPL-3.0)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+NOTE: As this is a GPL-3.0 licensed component, any modifications to Hakrawler
+itself would need to be distributed under GPL-3.0. Our interface code that
+calls Hakrawler remains under MIT license.
+
+--------------------------------------------------------------------------------
+4. TorBot - Dark Web OSINT Tool
+--------------------------------------------------------------------------------
+Copyright (c) 2017-2024 DedSecInside
+Repository: https://github.com/DedSecInside/TorBot
+License: GNU General Public License v3.0 (GPL-3.0)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+NOTE: As this is a GPL-3.0 licensed component, any modifications to TorBot
+itself would need to be distributed under GPL-3.0. Our interface code that
+calls TorBot remains under MIT license.
+
+--------------------------------------------------------------------------------
+5. CustomTkinter - Modern GUI Framework
+--------------------------------------------------------------------------------
+Copyright (c) 2021-2024 Tom Schimansky
+Repository: https://github.com/TomSchimansky/CustomTkinter
+License: MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+--------------------------------------------------------------------------------
+6. NetworkX - Network Analysis Library
+--------------------------------------------------------------------------------
+Copyright (c) 2004-2024, NetworkX Developers
+Repository: https://github.com/networkx/networkx
+License: BSD 3-Clause License
+
+7. NetExec - Network Execution Tool
+--------------------------------------------------------------------------------
+Copyright (c) 2023-2024 NetExec Contributors (formerly CrackMapExec)
+Repository: https://github.com/Pennyw0rth/NetExec
+License: BSD 2-Clause License
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+================================================================================
+THE TOR PROJECT
+================================================================================
+
+This software makes use of the Tor network and Tor software:
+
+"Tor" is a trademark of The Tor Project, Inc.
+Website: https://www.torproject.org/
+
+Tor is free software distributed under a 3-clause BSD license.
+For more information about Tor licensing, see:
+https://gitweb.torproject.org/tor.git/tree/LICENSE
+
+================================================================================
+ADDITIONAL NOTICES
+================================================================================
+
+1. GPL Compatibility Notice:
+   While the main All-in-One Net Safe application is licensed under MIT,
+   some integrated tools (Kalitorify, Hakrawler, TorBot, BruteShark) are GPL-3.0 licensed.
+   
+   - We do NOT modify the GPL-licensed tools' source code
+   - We interface with them as separate executables via subprocess calls
+   - Our controller code that interfaces with GPL tools remains MIT licensed
+   - Users must comply with GPL-3.0 for any modifications to those tools
+
+2. Distribution Notice:
+   When distributing this software, you must:
+   - Include this complete LICENSE file
+   - Respect all third-party licenses
+   - Provide source code for GPL components if modified
+   - Maintain copyright notices and attributions
+
+3. Trademark Notice:
+   - "Tor" is a registered trademark of The Tor Project, Inc.
+   - "Kali Linux" is a trademark of Offensive Security
+   - All other trademarks belong to their respective owners
+
+4. No Warranty:
+   This software and all integrated components are provided "AS IS" without
+   warranty of any kind. Use at your own risk.
+
+================================================================================
+ADDITIONAL INTEGRATED TOOLS
+================================================================================
+
+--------------------------------------------------------------------------------
+8. PC-information - System Information Gathering
+--------------------------------------------------------------------------------
+Copyright (c) nkhitrov
+Repository: https://github.com/nkhitrov/PC-information
+License: MIT License
+
+PowerShell-based system information gathering tool for Windows that retrieves
+comprehensive hardware and software details.
+
+--------------------------------------------------------------------------------
+9. CrossPlatformDiskTest - Storage Benchmark Tool  
+--------------------------------------------------------------------------------
+Copyright (c) Maxim Saplin
+Repository: https://github.com/maxim-saplin/CrossPlatformDiskTest
+License: MIT License
+
+Cross-platform disk/storage performance benchmarking tool for measuring
+sequential and random read/write speeds.
+
+--------------------------------------------------------------------------------
+10. BruteShark - Network Forensics Analysis Tool
+--------------------------------------------------------------------------------
+Copyright (c) Oded Shimon
+Repository: https://github.com/odedshimon/BruteShark
+License: GPL-3.0 License
+
+Network forensics tool for deep packet inspection, credential extraction,
+and network traffic analysis from PCAP files.
+
+================================================================================
+END OF LICENSE
+================================================================================
