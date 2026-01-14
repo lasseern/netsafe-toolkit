@@ -1,5 +1,7 @@
 # 🛡️ All-in-One Net Safe v3.0
 
+![All-in-One Net Safe Banner](assets/images/banner.png)
+
 A comprehensive security toolkit with 10 integrated tools for anonymous browsing, network reconnaissance, forensics analysis, and system diagnostics - all with an intuitive GUI and helpful tooltips.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
